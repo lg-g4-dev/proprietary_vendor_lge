@@ -31,9 +31,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/lge/g4-common/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/lge/g4-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/lge/g4-common/proprietary/bin/perfd:system/bin/perfd \
     vendor/lge/g4-common/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/lge/g4-common/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/lge/g4-common/proprietary/bin/perfd:system/bin/perfd \
     vendor/lge/g4-common/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/lge/g4-common/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/lge/g4-common/proprietary/bin/qmuxd:system/bin/qmuxd \
@@ -58,6 +58,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
     vendor/lge/g4-common/proprietary/etc/acdbdata/workspaceFile.qwsp:system/etc/acdbdata/workspaceFile.qwsp \
     vendor/lge/g4-common/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
+    vendor/lge/g4-common/proprietary/vendor/firmware/widevine.b00:system/vendor/firmware/widevine.b00 \
+    vendor/lge/g4-common/proprietary/vendor/firmware/widevine.b01:system/vendor/firmware/widevine.b01 \
+    vendor/lge/g4-common/proprietary/vendor/firmware/widevine.b02:system/vendor/firmware/widevine.b02 \
+    vendor/lge/g4-common/proprietary/vendor/firmware/widevine.b03:system/vendor/firmware/widevine.b03 \
+    vendor/lge/g4-common/proprietary/vendor/firmware/widevine.mdt:system/vendor/firmware/widevine.mdt \
     vendor/lge/g4-common/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/lge/g4-common/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
     vendor/lge/g4-common/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
@@ -89,11 +94,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/lge/g4-common/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/lge/g4-common/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
-    vendor/lge/g4-common/proprietary/etc/firmware/hashstorage.b00:system/etc/firmware/hashstorage.b00 \
-    vendor/lge/g4-common/proprietary/etc/firmware/hashstorage.b01:system/etc/firmware/hashstorage.b01 \
-    vendor/lge/g4-common/proprietary/etc/firmware/hashstorage.b02:system/etc/firmware/hashstorage.b02 \
-    vendor/lge/g4-common/proprietary/etc/firmware/hashstorage.b03:system/etc/firmware/hashstorage.b03 \
-    vendor/lge/g4-common/proprietary/etc/firmware/hashstorage.mdt:system/etc/firmware/hashstorage.mdt \
     vendor/lge/g4-common/proprietary/lib64/libcnefeatureconfig.so:system/lib64/libcnefeatureconfig.so \
     vendor/lge/g4-common/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/lge/g4-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
@@ -107,12 +107,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/lib/libmorpho_image_stab31.so:system/lib/libmorpho_image_stab31.so \
     vendor/lge/g4-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/lge/g4-common/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/lge/g4-common/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
-    vendor/lge/g4-common/proprietary/vendor/firmware/widevine.b00:system/vendor/firmware/widevine.b00 \
-    vendor/lge/g4-common/proprietary/vendor/firmware/widevine.b01:system/vendor/firmware/widevine.b01 \
-    vendor/lge/g4-common/proprietary/vendor/firmware/widevine.b02:system/vendor/firmware/widevine.b02 \
-    vendor/lge/g4-common/proprietary/vendor/firmware/widevine.b03:system/vendor/firmware/widevine.b03 \
-    vendor/lge/g4-common/proprietary/vendor/firmware/widevine.mdt:system/vendor/firmware/widevine.mdt \
     vendor/lge/g4-common/proprietary/vendor/bin/apk_delete.sh:system/vendor/bin/apk_delete.sh \
     vendor/lge/g4-common/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
     vendor/lge/g4-common/proprietary/vendor/bin/boot_resource.sh:system/vendor/bin/boot_resource.sh \
@@ -134,6 +128,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/firmware/BCM4339_003.001.009.0108.0501_LGE_P1-EU_FM_ORC.hcd:system/vendor/firmware/BCM4339_003.001.009.0108.0501_LGE_P1-EU_FM_ORC.hcd \
     vendor/lge/g4-common/proprietary/vendor/firmware/libpn547_fw_C9.so:system/vendor/firmware/libpn547_fw_C9.so \
     vendor/lge/g4-common/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
+    vendor/lge/g4-common/proprietary/etc/firmware/hashstorage.b00:system/etc/firmware/hashstorage.b00 \
+    vendor/lge/g4-common/proprietary/etc/firmware/hashstorage.b01:system/etc/firmware/hashstorage.b01 \
+    vendor/lge/g4-common/proprietary/etc/firmware/hashstorage.b02:system/etc/firmware/hashstorage.b02 \
+    vendor/lge/g4-common/proprietary/etc/firmware/hashstorage.b03:system/etc/firmware/hashstorage.b03 \
+    vendor/lge/g4-common/proprietary/etc/firmware/hashstorage.mdt:system/etc/firmware/hashstorage.mdt \
     vendor/lge/g4-common/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/lge/g4-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/lge/g4-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
