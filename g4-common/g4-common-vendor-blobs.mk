@@ -98,7 +98,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/lge/g4-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/lge/g4-common/proprietary/lib64/libril.so:system/lib64/libril.so \
-    vendor/lge/g4-common/proprietary/lib/hw/camera.msm8992.so:system/lib/hw/camera.msm8992.so \
+    vendor/lge/g4-common/proprietary/lib/hw/camera.msm8992.so:system/lib/hw/camera.vendor.msm8992.so \
     vendor/lge/g4-common/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/lge/g4-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/lge/g4-common/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
@@ -783,9 +783,46 @@ PRODUCT_COPY_FILES += \
 	vendor/lge/g4-common/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
 	vendor/lge/g4-common/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
 	vendor/lge/g4-common/proprietary/etc/lgodm/gps.cfg:system/etc/lgodm/gps.cfg \
-	vendor/lge/g4-common/proprietary/etc/lgodm/gps_sap_pdr.cfg:system/etc/lgodm/gps_sap_pdr.cfg
+	vendor/lge/g4-common/proprietary/etc/lgodm/gps_sap_pdr.cfg:system/etc/lgodm/gps_sap_pdr.cfg \
+	vendor/lge/g4-common/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
 
 #ril
 PRODUCT_COPY_FILES += \
-	vendor/lge/g4-common/proprietary/lib/libuicc.so:system/lib/libuicc.so \
-	vendor/lge/g4-common/proprietary/lib64/libuicc.so:system/lib64/libuicc.so
+    vendor/lge/g4-common/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
+    vendor/lge/g4-common/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    vendor/lge/g4-common/proprietary/lib/libuicc.so:system/lib/libuicc.so \
+    vendor/lge/g4-common/proprietary/lib64/libuicc.so:system/lib64/libuicc.so \
+    vendor/lge/g4-common/proprietary/lib64/librilutils.so:system/lib64/librilutils.so \
+    vendor/lge/g4-common/proprietary/lib/librilutils.so:system/lib/librilutils.so  \
+    vendor/lge/g4-common/proprietary/lib/libconfigdb.so:system/lib/libconfigdb.so \
+    vendor/lge/g4-common/proprietary/lib64/libconfigdb.so:system/lib64/libconfigdb.so \
+    vendor/lge/g4-common/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
+    vendor/lge/g4-common/proprietary/lib64/libmdmdetect.so:system/lib64/libmdmdetect.so \
+    vendor/lge/g4-common/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
+    vendor/lge/g4-common/proprietary/lib64/libnetmgr.so:system/lib64/libnetmgr.so \
+    vendor/lge/g4-common/proprietary/lib/libvss_common_idl.so:system/lib/libvss_common_idl.so \
+    vendor/lge/g4-common/proprietary/lib64/libvss_common_idl.so:system/lib64/libvss_common_idl.so \
+    vendor/lge/g4-common/proprietary/lib/libvss_common_core.so:system/lib/libvss_common_core.so \
+    vendor/lge/g4-common/proprietary/lib64/libvss_common_core.so:system/lib64/libvss_common_core.so \
+    vendor/lge/g4-common/proprietary/lib/libvss_dmi_qcci.so:system/lib/libvss_dmi_qcci.so \
+    vendor/lge/g4-common/proprietary/lib64/libvss_dmi_qcci.so:system/lib64/libvss_dmi_qcci.so \
+    vendor/lge/g4-common/proprietary/lib/libvss_gnss_qcci.so:system/lib/libvss_gnss_qcci.so \
+    vendor/lge/g4-common/proprietary/lib64/libvss_gnss_qcci.so:system/lib64/libvss_gnss_qcci.so \
+    vendor/lge/g4-common/proprietary/lib/libvss_ims_qcci.so:system/lib/libvss_ims_qcci.so \
+    vendor/lge/g4-common/proprietary/lib64/libvss_ims_qcci.so:system/lib64/libvss_ims_qcci.so \
+    vendor/lge/g4-common/proprietary/lib/libvss_nv_core.so:system/lib/libvss_nv_core.so \
+    vendor/lge/g4-common/proprietary/lib64/libvss_nv_core.so:system/lib64/libvss_nv_core.so \
+    vendor/lge/g4-common/proprietary/lib/libvss_resim_core.so:system/lib/libvss_resim_core.so \
+    vendor/lge/g4-common/proprietary/lib64/libvss_resim_core.so:system/lib64/libvss_resim_core.so \
+    vendor/lge/g4-common/proprietary/lib64/libvss_nv_idl.so:system/lib64/libvss_nv_idl.so \
+    vendor/lge/g4-common/proprietary/lib/libvss_nv_idl.so:system/lib/libvss_nv_idl.so \
+    vendor/lge/g4-common/proprietary/lib64/libvss_nv_iface.so:system/lib64/libvss_nv_iface.so \
+    vendor/lge/g4-common/proprietary/lib/libvss_nv_iface.so:system/lib/libvss_nv_iface.so \
+    vendor/lge/g4-common/proprietary/lib/libvss_resim_idl.so:system/lib/libvss_resim_idl.so \
+    vendor/lge/g4-common/proprietary/lib64/libvss_resim_idl.so:system/lib64/libvss_resim_idl.so \
+    vendor/lge/g4-common/proprietary/lib/libvss_resim_iface.so:system/lib/libvss_resim_iface.so \
+    vendor/lge/g4-common/proprietary/lib64/libvss_resim_iface.so:system/lib64/libvss_resim_iface.so \
+    vendor/lge/g4-common/proprietary/lib64/libvss_bsp_qcci.so:system/lib64/libvss_bsp_qcci.so \
+    vendor/lge/g4-common/proprietary/lib/libvss_common_iface.so:system/lib/libvss_common_iface.so \
+    vendor/lge/g4-common/proprietary/lib64/libvss_common_iface.so:system/lib64/libvss_common_iface.so
+
