@@ -156,11 +156,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/etc/firmware/hashstorage.b02:system/etc/firmware/hashstorage.b02 \
     vendor/lge/g4-common/proprietary/etc/firmware/hashstorage.b03:system/etc/firmware/hashstorage.b03 \
     vendor/lge/g4-common/proprietary/etc/firmware/hashstorage.mdt:system/etc/firmware/hashstorage.mdt \
-    vendor/lge/g4-common/proprietary/firmware/keymaster.b00:system/firmware/keymaster.b00 \
-    vendor/lge/g4-common/proprietary/firmware/keymaster.b01:system/firmware/keymaster.b01 \
-    vendor/lge/g4-common/proprietary/firmware/keymaster.b02:system/firmware/keymaster.b02 \
-    vendor/lge/g4-common/proprietary/firmware/keymaster.b03:system/firmware/keymaster.b03 \
-    vendor/lge/g4-common/proprietary/firmware/keymaster.mdt:system/firmware/keymaster.mdt \
+    vendor/lge/g4-common/proprietary/etc/firmware/keymaster.b00:system/etc/firmware/keymaster.b00 \
+    vendor/lge/g4-common/proprietary/etc/firmware/keymaster.b01:system/etc/firmware/keymaster.b01 \
+    vendor/lge/g4-common/proprietary/etc/firmware/keymaster.b02:system/etc/firmware/keymaster.b02 \
+    vendor/lge/g4-common/proprietary/etc/firmware/keymaster.b03:system/etc/firmware/keymaster.b03 \
+    vendor/lge/g4-common/proprietary/etc/firmware/keymaster.mdt:system/etc/firmware/keymaster.mdt \
     vendor/lge/g4-common/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/lge/g4-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/lge/g4-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
