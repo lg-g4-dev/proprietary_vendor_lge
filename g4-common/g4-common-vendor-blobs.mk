@@ -77,6 +77,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
     vendor/lge/g4-common/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
     vendor/lge/g4-common/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
+    vendor/lge/g4-common/proprietary/etc/firmware/wcd9320/wcd9320_anc.bin:system/etc/firmware/wcd9320/wcd9320_anc.bin \
+    vendor/lge/g4-common/proprietary/etc/firmware/wcd9320/wcd9320_mad_audio.bin:system/etc/firmware/wcd9320/wcd9320_mad_audio.bin \
+    vendor/lge/g4-common/proprietary/etc/firmware/wcd9320/wcd9320_mbhc.bin:system/etc/firmware/wcd9320/wcd9320_mbhc.bin \
     vendor/lge/g4-common/proprietary/etc/firmware/fw_bcmdhd_apsta.bin:system/etc/firmware/fw_bcmdhd_apsta.bin \
     vendor/lge/g4-common/proprietary/etc/firmware/fw_bcmdhd.bin:system/etc/firmware/fw_bcmdhd.bin \
     vendor/lge/g4-common/proprietary/etc/firmware/fw_bcmdhd_mfg.bin:system/etc/firmware/fw_bcmdhd_mfg.bin \
@@ -94,6 +97,26 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/lge/g4-common/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/lge/g4-common/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
+    vendor/lge/g4-common/proprietary/etc/firmware/mlserver.b00:system/etc/firmware/mlserver.b00 \
+    vendor/lge/g4-common/proprietary/etc/firmware/mlserver.b01:system/etc/firmware/mlserver.b01 \
+    vendor/lge/g4-common/proprietary/etc/firmware/mlserver.b02:system/etc/firmware/mlserver.b02 \
+    vendor/lge/g4-common/proprietary/etc/firmware/mlserver.b03:system/etc/firmware/mlserver.b03 \
+    vendor/lge/g4-common/proprietary/etc/firmware/mlserver.mdt:system/etc/firmware/mlserver.mdt \
+    vendor/lge/g4-common/proprietary/etc/firmware/dxhdcp2.b00:system/etc/firmware/dxhdcp2.b00 \
+    vendor/lge/g4-common/proprietary/etc/firmware/dxhdcp2.b01:system/etc/firmware/dxhdcp2.b01 \
+    vendor/lge/g4-common/proprietary/etc/firmware/dxhdcp2.b02:system/etc/firmware/dxhdcp2.b02 \
+    vendor/lge/g4-common/proprietary/etc/firmware/dxhdcp2.b03:system/etc/firmware/dxhdcp2.b03 \
+    vendor/lge/g4-common/proprietary/etc/firmware/dxhdcp2.mdt:system/etc/firmware/dxhdcp2.mdt \
+    vendor/lge/g4-common/proprietary/etc/firmware/secureks.b00:system/etc/firmware/secureks.b00 \
+    vendor/lge/g4-common/proprietary/etc/firmware/secureks.b01:system/etc/firmware/secureks.b01 \
+    vendor/lge/g4-common/proprietary/etc/firmware/secureks.b02:system/etc/firmware/secureks.b02 \
+    vendor/lge/g4-common/proprietary/etc/firmware/secureks.b03:system/etc/firmware/secureks.b03 \
+    vendor/lge/g4-common/proprietary/etc/firmware/secureks.mdt:system/etc/firmware/secureks.mdt \
+    vendor/lge/g4-common/proprietary/etc/firmware/securemm.b00:system/etc/firmware/securemm.b00 \
+    vendor/lge/g4-common/proprietary/etc/firmware/securemm.b01:system/etc/firmware/securemm.b01 \
+    vendor/lge/g4-common/proprietary/etc/firmware/securemm.b02:system/etc/firmware/securemm.b02 \
+    vendor/lge/g4-common/proprietary/etc/firmware/securemm.b03:system/etc/firmware/securemm.b03 \
+    vendor/lge/g4-common/proprietary/etc/firmware/securemm.mdt:system/etc/firmware/securemm.mdt \
     vendor/lge/g4-common/proprietary/lib64/libcnefeatureconfig.so:system/lib64/libcnefeatureconfig.so \
     vendor/lge/g4-common/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/lge/g4-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
@@ -133,6 +156,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/etc/firmware/hashstorage.b02:system/etc/firmware/hashstorage.b02 \
     vendor/lge/g4-common/proprietary/etc/firmware/hashstorage.b03:system/etc/firmware/hashstorage.b03 \
     vendor/lge/g4-common/proprietary/etc/firmware/hashstorage.mdt:system/etc/firmware/hashstorage.mdt \
+    vendor/lge/g4-common/proprietary/firmware/keymaster.b00:system/firmware/keymaster.b00 \
+    vendor/lge/g4-common/proprietary/firmware/keymaster.b01:system/firmware/keymaster.b01 \
+    vendor/lge/g4-common/proprietary/firmware/keymaster.b02:system/firmware/keymaster.b02 \
+    vendor/lge/g4-common/proprietary/firmware/keymaster.b03:system/firmware/keymaster.b03 \
+    vendor/lge/g4-common/proprietary/firmware/keymaster.mdt:system/firmware/keymaster.mdt \
     vendor/lge/g4-common/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/lge/g4-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/lge/g4-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -790,6 +818,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/lge/g4-common/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    vendor/lge/g4-common/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
+    vendor/lge/g4-common/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
+    vendor/lge/g4-common/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
     vendor/lge/g4-common/proprietary/lib/libuicc.so:system/lib/libuicc.so \
     vendor/lge/g4-common/proprietary/lib64/libuicc.so:system/lib64/libuicc.so \
     vendor/lge/g4-common/proprietary/lib64/librilutils.so:system/lib64/librilutils.so \
