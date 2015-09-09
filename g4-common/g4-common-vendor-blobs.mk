@@ -820,7 +820,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/lge/g4-common/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/lge/g4-common/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
-    vendor/lge/g4-common/proprietary/bin/xtwifi-client-agent:system/bin/xtwifi-client-agent \
+    vendor/lge/g4-common/proprietary/bin/xtwifi-agent:system/bin/xtwifi-agent \
     vendor/lge/g4-common/proprietary/etc/izat.conf:system/etc/izat.conf \
     vendor/lge/g4-common/proprietary/etc/izat.conf:system/etc/izat.conf \
     vendor/lge/g4-common/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
