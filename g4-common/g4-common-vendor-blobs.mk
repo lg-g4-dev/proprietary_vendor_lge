@@ -819,6 +819,18 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/lge/g4-common/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/lge/g4-common/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
+    vendor/lge/g4-common/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
+    vendor/lge/g4-common/proprietary/bin/xtwifi-client-agent:system/bin/xtwifi-client-agent \
+    vendor/lge/g4-common/proprietary/etc/izat.conf:system/etc/izat.conf \
+    vendor/lge/g4-common/proprietary/etc/izat.conf:system/etc/izat.conf \
+    vendor/lge/g4-common/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
+    vendor/lge/g4-common/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
+    vendor/lge/g4-common/proprietary/lib/libHDR.so:system/lib/libHDR.so \
+    vendor/lge/g4-common/proprietary/lib/libbson.so:system/lib/libbson.so \
+    vendor/lge/g4-common/proprietary/lib/libcurl.so:system/lib/libcurl.so \
+    vendor/lge/g4-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
+    vendor/lge/g4-common/proprietary/lib64/libbson.so:system/lib64/libbson.so \
+    vendor/lge/g4-common/proprietary/lib64/libcurl.so:system/lib64/libcurl.so \
     vendor/lge/g4-common/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/lge/g4-common/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
     vendor/lge/g4-common/proprietary/lib/libuicc.so:system/lib/libuicc.so \
